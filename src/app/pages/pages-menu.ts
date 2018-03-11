@@ -12,25 +12,18 @@ export const MENU_ITEMS: NbMenuItem[] = [
     group: true,
   },
   {
-    title: 'Auth',
-    icon: 'nb-locked',
-    children: [
-      {
-        title: 'Login',
-        link: '/auth/login',
-      },
-      {
-        title: 'Register',
-        link: '/auth/register',
-      },
-      {
-        title: 'Request Password',
-        link: '/auth/request-password',
-      },
-      {
-        title: 'Reset Password',
-        link: '/auth/reset-password',
-      },
-    ],
+    title: 'VIP Monitor',
+    icon: 'nb-person',
+    link: '/pages/dashboard',
+  },
+  {
+    title: 'History Events',
+    icon: 'nb-compose',
+    link: '/pages/dashboard',
+  },
+  {
+    title: 'Setting',
+    icon: 'nb-gear',
+    link: '/pages/dashboard',
   },
 ];
